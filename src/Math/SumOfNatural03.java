@@ -1,3 +1,5 @@
+package Math;
+
 public class SumOfNatural03 {
     public static void main(String[] args){
         int num=50;

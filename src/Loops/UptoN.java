@@ -1,3 +1,5 @@
+package Loops;
+
 public class UptoN {
     public static void main(String[] args){
         int N=10,sum=1;

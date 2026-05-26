@@ -1,3 +1,5 @@
+package Math;
+
 public class NumberSquare {
     public static void main(String[] args){
        int count=1;

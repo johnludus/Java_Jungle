@@ -1,3 +1,5 @@
+package Loops;
+
 public class Sum_2 {
     public static void main(String[] args){
         int n=3,upto=20;
