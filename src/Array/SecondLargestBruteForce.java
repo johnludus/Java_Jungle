@@ -1,6 +1,6 @@
 package Array;
 
-public class SecondLargest {
+public class SecondLargestBruteForce {
     public static void main(String[] args){
         int [] array = { 12,43,6,43,90,23,57};
         int largest = 0;
