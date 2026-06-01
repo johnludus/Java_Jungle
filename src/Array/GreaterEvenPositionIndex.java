@@ -16,14 +16,25 @@ public class GreaterEvenPositionIndex {
             array[i] = sc.nextInt();
         }
         for(int i=0;i<size-1;i++){
-            if(array[i] >= array[i+1] && i%2==0){
-                int temp = array[i];
-                array[i] = array[i+1];
-                array[i+1] = temp;
+            if(i%2==0){
+                if (array[i]>array[i+1]){
+                    int temp = array[i];
+                    array[i] = array[i+1];
+                    array[i+1] = temp;
+
+                }
+            }
+            else{
+                if (array[i]<array[i+1]){
+                    int temp = array[i];
+                    array[i] = array[i+1];
+                    array[i+1] = temp;
+                }
             }
         }
+        System.out.println("The modified array is : ");
         for(int i=0;i<size;i++){
-            System.out.print("The Modified Array is : "+ array[i]);
+            System.out.print(array[i]+" ");
         }
     }
 }
