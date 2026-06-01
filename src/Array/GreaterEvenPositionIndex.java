@@ -1,5 +1,7 @@
-// You are given an array you should arrange in the way that even index has the greatest value as compared to
-// near by index.
+//        Given an array arr[], rearrange its elements according to 1-based indexing such that for every even index i,
+//        arr[i] is greater than or equal to arr[i-1],
+//        and for every odd index i, arr[i] is less than or equal to arr[i-1].
+//        Return the rearranged array that satisfies these conditions for all valid indices.
 
 package Array;
 
