@@ -2,7 +2,7 @@
 //        This array represents a permutation of the
 //        integers from 1 to n with one element missing.
 //        Find the missing element in the array.
-//Input: arr[] = [8, 2, 4, 5, 3, 7, 1]
+//        Input: arr[] = [8, 2, 4, 5, 3, 7, 1]
 //        Output: 6
 //        Explanation: All the numbes from 1 to 8 are present except 6.
 
