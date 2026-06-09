@@ -31,12 +31,12 @@ public class MissingNumberUpdatingIndex {
             System.out.println("Enter the size of sn array : ");
             int size = sc.nextInt();
             int[] array = new int[size];
-            System.out.println("Enter the size of an array : ");
+            System.out.println("Enter the elements of an array : ");
             for (int i = 0; i < size; i++) {
                 array[i] = sc.nextInt();
             }
             int missingNumber = MissingNumber(array , size);
-            System.out.println("The profit from the given array is : "+missingNumber);
+            System.out.println("The Missing Number is : "+missingNumber);
         }
 
 }
