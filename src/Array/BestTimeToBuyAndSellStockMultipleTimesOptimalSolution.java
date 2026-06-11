@@ -14,7 +14,7 @@ package Array;
 
 import java.util.Scanner;
 
-public class BestTimeToBuyAndSellStockOptimalSolution {
+public class BestTimeToBuyAndSellStockMultipleTimesOptimalSolution {
     public static int Profit(int[] array , int size){
         int min = array[0],sum=0;
         for(int i=0;i<size-1;i++){
