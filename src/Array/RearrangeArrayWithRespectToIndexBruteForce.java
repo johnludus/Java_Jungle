@@ -11,7 +11,7 @@ package Array;
 
 import java.util.Scanner;
 
-public class RearrangeArrayWithRespectToIndex {
+public class RearrangeArrayWithRespectToIndexBruteForce {
     public static void main(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of sn array : ");
